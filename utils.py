@@ -1,6 +1,7 @@
 from zipfile import ZipFile
 import json
 
+
 def open_file_in_zip(path_zip: str) -> list[dict]:
     """
     Открывает файл внутри ZIP-архива и возвращает его содержимое в формате JSON
