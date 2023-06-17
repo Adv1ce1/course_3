@@ -1,7 +1,6 @@
 from utils import open_file_in_zip
 from classes.operations import Operations
 
-
 def main() -> None:
     """
     Основная функция программы.
